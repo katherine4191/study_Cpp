@@ -27,17 +27,17 @@ int main(void) {
     /* 벡터의 출력 */
     vector<int> vec_numbers = {10, 20, 30, 40, 50};
     for (int i = 0; i < vec_numbers.size(); i++)
-        printf("%d ", vec_numbers[i]);
+        printf("%d ", vec_numbers[i]); // 10 20 30 40 50
     printf("\n");
 
     vector<int>:: iterator vec_iter;
     for(vec_iter = vec_numbers.begin(); vec_iter != vec_numbers.end(); vec_iter++)
-        printf("%d ", (*vec_iter));
+        printf("%d ", (*vec_iter));  // 10 20 30 40 50
     printf("\n");
     
     // 거꾸로 출력
     for ( auto iter = vec_numbers.rbegin(); iter != vec_numbers.rend(); iter++)
-        printf("%d ", (*iter));
+        printf("%d ", (*iter)); // 50 40 30 20 10
     printf("\n");
 
     return 0;
