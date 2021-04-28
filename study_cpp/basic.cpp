@@ -3,11 +3,6 @@
 #include <vector>
 using namespace std;
 
-/* input
-5
-1 2 3 4 5
-*/
-
 int main(void) {
     int n = 0, num = 0;
     vector<int> vec_nums;
