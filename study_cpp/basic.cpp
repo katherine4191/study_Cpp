@@ -11,27 +11,35 @@ using namespace std;
 int main(void) {
     int n = 0, num = 0;
     vector<int> vec_nums;
-    scanf("%d", &n);
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &num);
-        vec_nums.push_back(num);
-    }
-    printf("vector.front(): %d \n", vec_nums.front());
-    printf("vector.back(): %d \n", vec_nums.back());
-    printf("vector's elements count: %d \n", vec_nums.size());
+    vec_nums.reserve(5);
 
-    // printf("vector.pop_back(): %d \n", numbers.pop_back());
-    vector<int> :: iterator v_iter;
-    for (v_iter = vec_nums.begin(); v_iter != vec_nums.end(); v_iter++) {
-        printf("%d ", (*v_iter));
-        if((*v_iter) == 3){
-            vec_nums.erase(v_iter);
-        }
-    }
+    /* vector의 삽입 */
+    vec_nums.insert(vec_nums.begin(), 2, 20);
+    vec_nums.insert(vec_nums.begin() + 2, 30);
+    vec_nums.push_back(40);
+    vec_nums.push_back(50); // 20 20 30 40 50
+    
+    /* vector의 삭제 */
+    vec_nums.pop_back(); // 20 20 30 40
+    vec_nums.erase(vec_nums.begin());  // 20 30 40
+    vec_nums.erase(vec_nums.begin(), vec_nums.begin() + 2);  // 40
 
-    // vec_nums.insert(2,3);
-    // v.insert(2, 3, 4);
-    // v.insert(2, 3);
+    /* 벡터의 출력 */
+    vector<int> vec_numbers = {10, 20, 30, 40, 50};
+    for (int i = 0; i < vec_numbers.size(); i++)
+        printf("%d ", vec_numbers[i]);
+    printf("\n");
+
+    vector<int>:: iterator vec_iter;
+    for(vec_iter = vec_numbers.begin(); vec_iter != vec_numbers.end(); vec_iter++)
+        printf("%d ", (*vec_iter));
+    printf("\n");
+    
+    // 거꾸로 출력
+    for ( auto iter = vec_numbers.rbegin(); iter != vec_numbers.rend(); iter++)
+        printf("%d ", (*iter));
+    printf("\n");
 
     return 0;
 }
+
