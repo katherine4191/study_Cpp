@@ -4,10 +4,16 @@
     <Filter Include="01. vector">
       <UniqueIdentifier>{62fbbacc-4102-4d3a-a5d9-f4befb9e5ebd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="02. queue">
+      <UniqueIdentifier>{aaa13519-b168-469d-ae1e-c263bf42f91c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="basic.cpp">
+    <ClCompile Include="vec_basic.cpp">
       <Filter>01. vector</Filter>
+    </ClCompile>
+    <ClCompile Include="que_basic.cpp">
+      <Filter>02. queue</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
