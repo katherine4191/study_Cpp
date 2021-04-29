@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 
-int main(void) {
+int vec_basic(void) {
     int n = 0, num = 0;
     vector<int> vec_nums;
     vec_nums.reserve(5);
