@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="list_basic.cpp" />
     <ClCompile Include="vec_basic.cpp" />
     <ClCompile Include="que_basic.cpp" />
   </ItemGroup>

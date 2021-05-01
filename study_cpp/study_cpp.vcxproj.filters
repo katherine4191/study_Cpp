@@ -7,6 +7,9 @@
     <Filter Include="02. queue">
       <UniqueIdentifier>{aaa13519-b168-469d-ae1e-c263bf42f91c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="03.list">
+      <UniqueIdentifier>{03c91587-ca55-4a25-8fc6-c35460f73d16}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="vec_basic.cpp">
@@ -14,6 +17,9 @@
     </ClCompile>
     <ClCompile Include="que_basic.cpp">
       <Filter>02. queue</Filter>
+    </ClCompile>
+    <ClCompile Include="list_basic.cpp">
+      <Filter>03.list</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
