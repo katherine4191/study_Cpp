@@ -2,7 +2,7 @@
 #include <stdio.h>
 using namespace std;
 
-int main(void) {
+int que_basic(void) {
 	queue<int> que({ 10,20,30 });
 	que.push(40);
 	que.push(50);
@@ -15,4 +15,5 @@ int main(void) {
 	}
 	printf("\n");
 	// 10 20 30 40 50
+	return 0;
 }
