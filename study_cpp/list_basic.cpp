@@ -2,7 +2,7 @@
 #include <list>
 using namespace std;
 
-int main(void) {
+int list_basic(void) {
 	list<int> list_nums;
 
 	for (int i = 1; i < 10; i++)
