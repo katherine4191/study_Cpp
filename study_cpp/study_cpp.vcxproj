@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="deque_basic.cpp" />
     <ClCompile Include="list_basic.cpp" />
     <ClCompile Include="list_iter.cpp" />
     <ClCompile Include="vec_basic.cpp" />

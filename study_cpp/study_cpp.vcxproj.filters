@@ -10,6 +10,9 @@
     <Filter Include="03.list">
       <UniqueIdentifier>{03c91587-ca55-4a25-8fc6-c35460f73d16}</UniqueIdentifier>
     </Filter>
+    <Filter Include="04. deque">
+      <UniqueIdentifier>{db2f0f0b-c32e-4bb6-b58e-0788d0bfe283}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="vec_basic.cpp">
@@ -23,6 +26,9 @@
     </ClCompile>
     <ClCompile Include="list_iter.cpp">
       <Filter>03.list</Filter>
+    </ClCompile>
+    <ClCompile Include="deque_basic.cpp">
+      <Filter>04. deque</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
