@@ -12,6 +12,9 @@ int main(void) {
 	for (int i = 5; i < 10; i++) {
 		dq.push_front(i);
 	}
+
+	// 공부하자!
+
 	return 0;
 }
 
