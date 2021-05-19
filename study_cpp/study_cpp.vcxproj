@@ -142,6 +142,7 @@
     <ClCompile Include="deque_basic.cpp" />
     <ClCompile Include="list_basic.cpp" />
     <ClCompile Include="list_iter.cpp" />
+    <ClCompile Include="deque_iter.cpp" />
     <ClCompile Include="vec_basic.cpp" />
     <ClCompile Include="que_basic.cpp" />
   </ItemGroup>

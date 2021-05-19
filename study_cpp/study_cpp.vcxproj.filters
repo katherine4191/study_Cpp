@@ -30,5 +30,8 @@
     <ClCompile Include="deque_basic.cpp">
       <Filter>04. deque</Filter>
     </ClCompile>
+    <ClCompile Include="deque_iter.cpp">
+      <Filter>04. deque</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
